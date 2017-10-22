@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-    test1
+    درباره ما
 @endsection
 @section('css')
 

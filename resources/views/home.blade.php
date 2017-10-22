@@ -5,11 +5,7 @@
 @endsection
 
 @section('css')
-    {{--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">--}}
-    {{--<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">--}}
-    {{--    <link href={{asset ("dist/css/test.css")}} rel="stylesheet" type="text/css">--}}
-    {{--<link href="dist/css/font-awesome.css" rel="stylesheet" type="text/css">--}}
-    {{--<link href="dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css">--}}
+
 @endsection
 
 @section('content')
@@ -109,20 +105,15 @@
                         Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
                     <a class="More" href="#">More</a>
                 </div>
+                <div class="photo">
+                    <img src="pic\7.jpg" width="100%" width="400 px" height="400 px">
+
+                </div>
+                <hr class="line">
             </div>
-            <hr class="line">
         </div>
-    </div>
-    <div class="col-md-12">
-        <div class="last">
-            <div class="combo lalign"><p>© ARIBAN. Design: khalilnaserinassb@gmail.com. Images: Unsplash.</p></div>
-            <div class="combo ralign social">
-                <a href="#"> <i class="fa fa-facebook " aria-hidden="true"></i> </a>
-                <a href="#"> <i class="fa fa-twitter " aria-hidden="true"></i> </a>
-                <a href="#"> <i class="fa fa-linkedin " aria-hidden="true"></i> </a>
-                <a href="#"> <i class="fa fa-pinterest-p " aria-hidden="true"></i> </a>
-                <a href="#"> <i class="fa fa-vimeo " aria-hidden="true"></i> </a>
-            </div>
+        <div class="col-md-12">
+
         </div>
     </div>
 @endsection

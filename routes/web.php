@@ -10,17 +10,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
-Route ::get('home','controllasal@asalhome');
+//
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+Route ::get('/','controllasal@asalhome');
 
 Route ::get('master','controllmaster@master');
 
 Route ::get('test','controllmaster@testmaster');
 
-Route ::get('testfo','controllmaster@testfoot');
+Route ::get('tabliq','controllmaster@tabliq');
 //
 //Route::get('/b', function () {
 //    return view('test-master');

@@ -15,8 +15,8 @@ class controllmaster extends Controller
     {
         return view('test-master');
     }
-    public function testfoot()
+    public function tabliq()
     {
-        return view('testfooter');
+        return view('tabliq');
     }
 }
