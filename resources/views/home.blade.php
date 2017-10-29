@@ -5,19 +5,28 @@
 @endsection
 
 @section('css')
+    <link href="{{asset('dist\css\home.css')}}" media="all" rel="stylesheet" type="text/css"/>
 
 @endsection
 
 @section('content')
-    {{--<div class="box">--}}
+
     <div class="col-md-12">
+        <div class="col-md-12">
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 color-fff">
+                <h3>تغذیه,سلامتی و زیبایی</h3>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 color-fff">
+                <h1>عسل آریبان</h1>
+            </div>
+        </div>
         <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 color-fff">
             {{--<div class="box3">--}}
             <h1> فروش عسل </h1>
             <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet,
                 lectus arcu.
             </p>
-            <a class="More" href="#">More</a>
+            <a class="More" href="shope">More</a>
             {{--</div>--}}
         </div>
         <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 color-fff">
@@ -26,16 +35,15 @@
             <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet,
                 lectus arcu.
             </p>
-            <a class="More" href="#">More</a>
+            <a class="More" href="moarefi">More</a>
             {{--</div>--}}
         </div>
         <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 color-fff">
             {{--<div class="box3">--}}
             <h1>خواص عسل</h1>
-            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet,
-                lectus arcu.
+            <p>خواص عسل را بیشتر بشناسید:۳۱ خاصیت عسل
             </p>
-            <a class="More" href="#">More</a>
+            <a class="More" href="khavasasal">More</a>
             {{--</div>--}}
         </div>
     </div>

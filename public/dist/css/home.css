@@ -1,0 +1,47 @@
+
+.service-sec .heading {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service-sec h2 {
+    display: block;
+    text-transform: BlackChancery;
+    font-weight: 600;
+    color: #0297FF;
+    font-size: 32px;
+}
+
+.service-sec h2 small {
+    color: #222;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.service-sec i {
+    border: 1px solid #0297FF;
+    border-radius: 2px;
+    font-size: 25px;
+    padding: 12px 0;
+    width: 52px;
+    color: #0297FF;
+    margin-bottom: 20px
+}
+
+.service-sec h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.service-sec p {
+    line-height: 22px;
+    margin-top: 13px;
+    padding: 0 21px;
+}
+
+.service-sec .service-block {
+    margin-top: 30px;
+}
