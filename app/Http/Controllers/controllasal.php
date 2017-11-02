@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class controllasal extends Controller
 {
-    public function asalhome()
+    public function index()
     {
         return view('home');
     }
-}

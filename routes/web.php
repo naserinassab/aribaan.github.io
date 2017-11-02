@@ -14,7 +14,7 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
-Route ::get('/','controllasal@asalhome')->name("/");
+Route ::get('/','controllasal@index');
 
 Route ::get('master','controllmaster@master')->name("master");
 
